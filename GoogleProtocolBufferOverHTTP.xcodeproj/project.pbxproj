@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BBF634C2111ABC600D0626F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF634B2111ABC600D0626F /* AppDelegate.m */; };
+		3BBF634F2111ABC600D0626F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF634E2111ABC600D0626F /* main.m */; };
+		3BBF63522111ABC600D0626F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF63512111ABC600D0626F /* ViewController.m */; };
+		3BBF63542111ABC600D0626F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF63532111ABC600D0626F /* Assets.xcassets */; };
+		3BBF63572111ABC600D0626F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF63552111ABC600D0626F /* Main.storyboard */; };
+		3BBF63642111ABED00D0626F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF63632111ABED00D0626F /* AppDelegate.m */; };
+		3BBF63672111ABEE00D0626F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF63662111ABEE00D0626F /* main.m */; };
+		3BBF636A2111ABEE00D0626F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF63692111ABEE00D0626F /* ViewController.m */; };
+		3BBF636C2111ABEE00D0626F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF636B2111ABEE00D0626F /* Assets.xcassets */; };
+		3BBF636F2111ABEE00D0626F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF636D2111ABEE00D0626F /* Main.storyboard */; };
+		3BBF639F2111AC3E00D0626F /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBF63982111AC3E00D0626F /* libProtocolBuffers.a */; };
+		3BBF63A02111AC3E00D0626F /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBF63982111AC3E00D0626F /* libProtocolBuffers.a */; };
+		3BBF63A12111AC3E00D0626F /* request.login.proto in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF639C2111AC3E00D0626F /* request.login.proto */; };
+		3BBF63A22111AC3E00D0626F /* request.login.proto in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF639C2111AC3E00D0626F /* request.login.proto */; };
+		3BBF63A32111AC3E00D0626F /* RequestLogin.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF639E2111AC3E00D0626F /* RequestLogin.pbobjc.m */; };
+		3BBF63A42111AC3E00D0626F /* RequestLogin.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF639E2111AC3E00D0626F /* RequestLogin.pbobjc.m */; };
+		3BBF63AA2111AC7400D0626F /* GPBHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF63A72111AC7400D0626F /* GPBHTTPConnection.m */; };
+		3BBF63AB2111AC7400D0626F /* GPBHTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF63A92111AC7400D0626F /* GPBHTTPDataResponse.m */; };
+		57163065F8493E5031D9E5FA /* libPods-HTTPClientDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 743977C66897BBF7EAE65183 /* libPods-HTTPClientDemo.a */; };
+		D7D0D0BBE5CCCCDEDE925B9C /* libPods-HTTPServerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3920FD7438858FE156277804 /* libPods-HTTPServerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		150C3DC3A5066C8CD3520671 /* Pods-HTTPClientDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTPClientDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTTPClientDemo/Pods-HTTPClientDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3920FD7438858FE156277804 /* libPods-HTTPServerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTTPServerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBF63482111ABC600D0626F /* HTTPServerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTPServerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBF634A2111ABC600D0626F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BBF634B2111ABC600D0626F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BBF634E2111ABC600D0626F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BBF63502111ABC600D0626F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BBF63512111ABC600D0626F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BBF63532111ABC600D0626F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BBF63562111ABC600D0626F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BBF63582111ABC600D0626F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BBF63602111ABED00D0626F /* HTTPClientDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTPClientDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBF63622111ABED00D0626F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BBF63632111ABED00D0626F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BBF63662111ABEE00D0626F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BBF63682111ABEE00D0626F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BBF63692111ABEE00D0626F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BBF636B2111ABEE00D0626F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BBF636E2111ABEE00D0626F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BBF63702111ABEE00D0626F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BBF63782111AC3E00D0626F /* Any.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Any.pbobjc.h; sourceTree = "<group>"; };
+		3BBF63792111AC3E00D0626F /* Api.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
+		3BBF637A2111AC3E00D0626F /* Duration.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duration.pbobjc.h; sourceTree = "<group>"; };
+		3BBF637B2111AC3E00D0626F /* Empty.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empty.pbobjc.h; sourceTree = "<group>"; };
+		3BBF637C2111AC3E00D0626F /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldMask.pbobjc.h; sourceTree = "<group>"; };
+		3BBF637D2111AC3E00D0626F /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceContext.pbobjc.h; sourceTree = "<group>"; };
+		3BBF637E2111AC3E00D0626F /* Struct.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Struct.pbobjc.h; sourceTree = "<group>"; };
+		3BBF637F2111AC3E00D0626F /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timestamp.pbobjc.h; sourceTree = "<group>"; };
+		3BBF63802111AC3E00D0626F /* Type.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.pbobjc.h; sourceTree = "<group>"; };
+		3BBF63812111AC3E00D0626F /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrappers.pbobjc.h; sourceTree = "<group>"; };
+		3BBF63822111AC3E00D0626F /* GPBArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBArray.h; sourceTree = "<group>"; };
+		3BBF63832111AC3E00D0626F /* GPBBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBBootstrap.h; sourceTree = "<group>"; };
+		3BBF63842111AC3E00D0626F /* GPBCodedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBCodedInputStream.h; sourceTree = "<group>"; };
+		3BBF63852111AC3E00D0626F /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBCodedOutputStream.h; sourceTree = "<group>"; };
+		3BBF63862111AC3E00D0626F /* GPBDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDescriptor.h; sourceTree = "<group>"; };
+		3BBF63872111AC3E00D0626F /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
+		3BBF63882111AC3E00D0626F /* GPBDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDictionary.h; sourceTree = "<group>"; };
+		3BBF63892111AC3E00D0626F /* GPBExtensionInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBExtensionInternals.h; sourceTree = "<group>"; };
+		3BBF638A2111AC3E00D0626F /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBExtensionRegistry.h; sourceTree = "<group>"; };
+		3BBF638B2111AC3E00D0626F /* GPBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBMessage.h; sourceTree = "<group>"; };
+		3BBF638C2111AC3E00D0626F /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
+		3BBF638D2111AC3E00D0626F /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBProtocolBuffers.h; sourceTree = "<group>"; };
+		3BBF638E2111AC3E00D0626F /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
+		3BBF638F2111AC3E00D0626F /* GPBRootObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRootObject.h; sourceTree = "<group>"; };
+		3BBF63902111AC3E00D0626F /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
+		3BBF63912111AC3E00D0626F /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRuntimeTypes.h; sourceTree = "<group>"; };
+		3BBF63922111AC3E00D0626F /* GPBUnknownField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUnknownField.h; sourceTree = "<group>"; };
+		3BBF63932111AC3E00D0626F /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUnknownFieldSet.h; sourceTree = "<group>"; };
+		3BBF63942111AC3E00D0626F /* GPBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUtilities.h; sourceTree = "<group>"; };
+		3BBF63952111AC3E00D0626F /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
+		3BBF63962111AC3E00D0626F /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBWellKnownTypes.h; sourceTree = "<group>"; };
+		3BBF63972111AC3E00D0626F /* GPBWireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBWireFormat.h; sourceTree = "<group>"; };
+		3BBF63982111AC3E00D0626F /* libProtocolBuffers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libProtocolBuffers.a; sourceTree = "<group>"; };
+		3BBF639C2111AC3E00D0626F /* request.login.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = request.login.proto; sourceTree = "<group>"; };
+		3BBF639D2111AC3E00D0626F /* RequestLogin.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestLogin.pbobjc.h; sourceTree = "<group>"; };
+		3BBF639E2111AC3E00D0626F /* RequestLogin.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestLogin.pbobjc.m; sourceTree = "<group>"; };
+		3BBF63A62111AC7400D0626F /* GPBHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBHTTPConnection.h; sourceTree = "<group>"; };
+		3BBF63A72111AC7400D0626F /* GPBHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBHTTPConnection.m; sourceTree = "<group>"; };
+		3BBF63A82111AC7400D0626F /* GPBHTTPDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBHTTPDataResponse.h; sourceTree = "<group>"; };
+		3BBF63A92111AC7400D0626F /* GPBHTTPDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBHTTPDataResponse.m; sourceTree = "<group>"; };
+		743977C66897BBF7EAE65183 /* libPods-HTTPClientDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTTPClientDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11EBEC331A99188DF5ACEF7 /* Pods-HTTPServerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTPServerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTTPServerDemo/Pods-HTTPServerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B291B30E33B6C331496091F3 /* Pods-HTTPServerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTPServerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTTPServerDemo/Pods-HTTPServerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E68FD1285FC7646E33E5FBA4 /* Pods-HTTPClientDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTPClientDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTTPClientDemo/Pods-HTTPClientDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BBF63452111ABC600D0626F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBF639F2111AC3E00D0626F /* libProtocolBuffers.a in Frameworks */,
+				D7D0D0BBE5CCCCDEDE925B9C /* libPods-HTTPServerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBF635D2111ABED00D0626F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBF63A02111AC3E00D0626F /* libProtocolBuffers.a in Frameworks */,
+				57163065F8493E5031D9E5FA /* libPods-HTTPClientDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBF63092111AB5400D0626F = {
+			isa = PBXGroup;
+			children = (
+				3BBF63742111AC3E00D0626F /* Frameworks */,
+				3BBF63992111AC3E00D0626F /* google */,
+				3BBF63492111ABC600D0626F /* HTTPServerDemo */,
+				3BBF63612111ABED00D0626F /* HTTPClientDemo */,
+				3BBF63132111AB5400D0626F /* Products */,
+				62FBADFC23D84439627D4BC1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3BBF63132111AB5400D0626F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF63482111ABC600D0626F /* HTTPServerDemo.app */,
+				3BBF63602111ABED00D0626F /* HTTPClientDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BBF63492111ABC600D0626F /* HTTPServerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF63A52111AC7400D0626F /* Base */,
+				3BBF634A2111ABC600D0626F /* AppDelegate.h */,
+				3BBF634B2111ABC600D0626F /* AppDelegate.m */,
+				3BBF63502111ABC600D0626F /* ViewController.h */,
+				3BBF63512111ABC600D0626F /* ViewController.m */,
+				3BBF63532111ABC600D0626F /* Assets.xcassets */,
+				3BBF63552111ABC600D0626F /* Main.storyboard */,
+				3BBF63582111ABC600D0626F /* Info.plist */,
+				3BBF634D2111ABC600D0626F /* Supporting Files */,
+			);
+			path = HTTPServerDemo;
+			sourceTree = "<group>";
+		};
+		3BBF634D2111ABC600D0626F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF634E2111ABC600D0626F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BBF63612111ABED00D0626F /* HTTPClientDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF63622111ABED00D0626F /* AppDelegate.h */,
+				3BBF63632111ABED00D0626F /* AppDelegate.m */,
+				3BBF63682111ABEE00D0626F /* ViewController.h */,
+				3BBF63692111ABEE00D0626F /* ViewController.m */,
+				3BBF636B2111ABEE00D0626F /* Assets.xcassets */,
+				3BBF636D2111ABEE00D0626F /* Main.storyboard */,
+				3BBF63702111ABEE00D0626F /* Info.plist */,
+				3BBF63652111ABEE00D0626F /* Supporting Files */,
+			);
+			path = HTTPClientDemo;
+			sourceTree = "<group>";
+		};
+		3BBF63652111ABEE00D0626F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF63662111ABEE00D0626F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BBF63742111AC3E00D0626F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF63752111AC3E00D0626F /* include */,
+				3BBF63982111AC3E00D0626F /* libProtocolBuffers.a */,
+				743977C66897BBF7EAE65183 /* libPods-HTTPClientDemo.a */,
+				3920FD7438858FE156277804 /* libPods-HTTPServerDemo.a */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BBF63752111AC3E00D0626F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF63762111AC3E00D0626F /* google */,
+				3BBF63822111AC3E00D0626F /* GPBArray.h */,
+				3BBF63832111AC3E00D0626F /* GPBBootstrap.h */,
+				3BBF63842111AC3E00D0626F /* GPBCodedInputStream.h */,
+				3BBF63852111AC3E00D0626F /* GPBCodedOutputStream.h */,
+				3BBF63862111AC3E00D0626F /* GPBDescriptor.h */,
+				3BBF63872111AC3E00D0626F /* GPBDescriptor_PackagePrivate.h */,
+				3BBF63882111AC3E00D0626F /* GPBDictionary.h */,
+				3BBF63892111AC3E00D0626F /* GPBExtensionInternals.h */,
+				3BBF638A2111AC3E00D0626F /* GPBExtensionRegistry.h */,
+				3BBF638B2111AC3E00D0626F /* GPBMessage.h */,
+				3BBF638C2111AC3E00D0626F /* GPBMessage_PackagePrivate.h */,
+				3BBF638D2111AC3E00D0626F /* GPBProtocolBuffers.h */,
+				3BBF638E2111AC3E00D0626F /* GPBProtocolBuffers_RuntimeSupport.h */,
+				3BBF638F2111AC3E00D0626F /* GPBRootObject.h */,
+				3BBF63902111AC3E00D0626F /* GPBRootObject_PackagePrivate.h */,
+				3BBF63912111AC3E00D0626F /* GPBRuntimeTypes.h */,
+				3BBF63922111AC3E00D0626F /* GPBUnknownField.h */,
+				3BBF63932111AC3E00D0626F /* GPBUnknownFieldSet.h */,
+				3BBF63942111AC3E00D0626F /* GPBUtilities.h */,
+				3BBF63952111AC3E00D0626F /* GPBUtilities_PackagePrivate.h */,
+				3BBF63962111AC3E00D0626F /* GPBWellKnownTypes.h */,
+				3BBF63972111AC3E00D0626F /* GPBWireFormat.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3BBF63762111AC3E00D0626F /* google */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF63772111AC3E00D0626F /* protobuf */,
+			);
+			path = google;
+			sourceTree = "<group>";
+		};
+		3BBF63772111AC3E00D0626F /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF63782111AC3E00D0626F /* Any.pbobjc.h */,
+				3BBF63792111AC3E00D0626F /* Api.pbobjc.h */,
+				3BBF637A2111AC3E00D0626F /* Duration.pbobjc.h */,
+				3BBF637B2111AC3E00D0626F /* Empty.pbobjc.h */,
+				3BBF637C2111AC3E00D0626F /* FieldMask.pbobjc.h */,
+				3BBF637D2111AC3E00D0626F /* SourceContext.pbobjc.h */,
+				3BBF637E2111AC3E00D0626F /* Struct.pbobjc.h */,
+				3BBF637F2111AC3E00D0626F /* Timestamp.pbobjc.h */,
+				3BBF63802111AC3E00D0626F /* Type.pbobjc.h */,
+				3BBF63812111AC3E00D0626F /* Wrappers.pbobjc.h */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+		3BBF63992111AC3E00D0626F /* google */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF639A2111AC3E00D0626F /* protocol */,
+			);
+			path = google;
+			sourceTree = "<group>";
+		};
+		3BBF639A2111AC3E00D0626F /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF639B2111AC3E00D0626F /* buffer */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		3BBF639B2111AC3E00D0626F /* buffer */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF639C2111AC3E00D0626F /* request.login.proto */,
+				3BBF639D2111AC3E00D0626F /* RequestLogin.pbobjc.h */,
+				3BBF639E2111AC3E00D0626F /* RequestLogin.pbobjc.m */,
+			);
+			path = buffer;
+			sourceTree = "<group>";
+		};
+		3BBF63A52111AC7400D0626F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF63A62111AC7400D0626F /* GPBHTTPConnection.h */,
+				3BBF63A72111AC7400D0626F /* GPBHTTPConnection.m */,
+				3BBF63A82111AC7400D0626F /* GPBHTTPDataResponse.h */,
+				3BBF63A92111AC7400D0626F /* GPBHTTPDataResponse.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		62FBADFC23D84439627D4BC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E68FD1285FC7646E33E5FBA4 /* Pods-HTTPClientDemo.debug.xcconfig */,
+				150C3DC3A5066C8CD3520671 /* Pods-HTTPClientDemo.release.xcconfig */,
+				B291B30E33B6C331496091F3 /* Pods-HTTPServerDemo.debug.xcconfig */,
+				B11EBEC331A99188DF5ACEF7 /* Pods-HTTPServerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BBF63472111ABC600D0626F /* HTTPServerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBF63592111ABC600D0626F /* Build configuration list for PBXNativeTarget "HTTPServerDemo" */;
+			buildPhases = (
+				78A004F95D77FE8AB3E903A1 /* [CP] Check Pods Manifest.lock */,
+				3BBF63442111ABC600D0626F /* Sources */,
+				3BBF63452111ABC600D0626F /* Frameworks */,
+				3BBF63462111ABC600D0626F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTTPServerDemo;
+			productName = HTTPServerDemo;
+			productReference = 3BBF63482111ABC600D0626F /* HTTPServerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BBF635F2111ABED00D0626F /* HTTPClientDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBF63712111ABEE00D0626F /* Build configuration list for PBXNativeTarget "HTTPClientDemo" */;
+			buildPhases = (
+				B4517FAD605F0D2BFE47BB39 /* [CP] Check Pods Manifest.lock */,
+				3BBF635C2111ABED00D0626F /* Sources */,
+				3BBF635D2111ABED00D0626F /* Frameworks */,
+				3BBF635E2111ABED00D0626F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTTPClientDemo;
+			productName = HTTPClientDemo;
+			productReference = 3BBF63602111ABED00D0626F /* HTTPClientDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BBF630A2111AB5400D0626F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = industriousonesoft;
+				TargetAttributes = {
+					3BBF63472111ABC600D0626F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3BBF635F2111ABED00D0626F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BBF630D2111AB5400D0626F /* Build configuration list for PBXProject "GoogleProtocolBufferOverHTTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BBF63092111AB5400D0626F;
+			productRefGroup = 3BBF63132111AB5400D0626F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BBF63472111ABC600D0626F /* HTTPServerDemo */,
+				3BBF635F2111ABED00D0626F /* HTTPClientDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BBF63462111ABC600D0626F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBF63542111ABC600D0626F /* Assets.xcassets in Resources */,
+				3BBF63572111ABC600D0626F /* Main.storyboard in Resources */,
+				3BBF63A12111AC3E00D0626F /* request.login.proto in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBF635E2111ABED00D0626F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBF636C2111ABEE00D0626F /* Assets.xcassets in Resources */,
+				3BBF636F2111ABEE00D0626F /* Main.storyboard in Resources */,
+				3BBF63A22111AC3E00D0626F /* request.login.proto in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78A004F95D77FE8AB3E903A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTTPServerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4517FAD605F0D2BFE47BB39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTTPClientDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BBF63442111ABC600D0626F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBF63AB2111AC7400D0626F /* GPBHTTPDataResponse.m in Sources */,
+				3BBF63A32111AC3E00D0626F /* RequestLogin.pbobjc.m in Sources */,
+				3BBF63522111ABC600D0626F /* ViewController.m in Sources */,
+				3BBF634F2111ABC600D0626F /* main.m in Sources */,
+				3BBF63AA2111AC7400D0626F /* GPBHTTPConnection.m in Sources */,
+				3BBF634C2111ABC600D0626F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBF635C2111ABED00D0626F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBF63A42111AC3E00D0626F /* RequestLogin.pbobjc.m in Sources */,
+				3BBF636A2111ABEE00D0626F /* ViewController.m in Sources */,
+				3BBF63672111ABEE00D0626F /* main.m in Sources */,
+				3BBF63642111ABED00D0626F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BBF63552111ABC600D0626F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBF63562111ABC600D0626F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BBF636D2111ABEE00D0626F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBF636E2111ABEE00D0626F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BBF63242111AB5500D0626F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BBF63252111AB5500D0626F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BBF635A2111ABC600D0626F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B291B30E33B6C331496091F3 /* Pods-HTTPServerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/include";
+				INFOPLIST_FILE = HTTPServerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.industriousonesoft.HTTPServerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BBF635B2111ABC600D0626F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11EBEC331A99188DF5ACEF7 /* Pods-HTTPServerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/include";
+				INFOPLIST_FILE = HTTPServerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.industriousonesoft.HTTPServerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BBF63722111ABEE00D0626F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68FD1285FC7646E33E5FBA4 /* Pods-HTTPClientDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/include";
+				INFOPLIST_FILE = HTTPClientDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.industriousonesoft.HTTPClientDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BBF63732111ABEE00D0626F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150C3DC3A5066C8CD3520671 /* Pods-HTTPClientDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/include";
+				INFOPLIST_FILE = HTTPClientDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.industriousonesoft.HTTPClientDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BBF630D2111AB5400D0626F /* Build configuration list for PBXProject "GoogleProtocolBufferOverHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBF63242111AB5500D0626F /* Debug */,
+				3BBF63252111AB5500D0626F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BBF63592111ABC600D0626F /* Build configuration list for PBXNativeTarget "HTTPServerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBF635A2111ABC600D0626F /* Debug */,
+				3BBF635B2111ABC600D0626F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BBF63712111ABEE00D0626F /* Build configuration list for PBXNativeTarget "HTTPClientDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBF63722111ABEE00D0626F /* Debug */,
+				3BBF63732111ABEE00D0626F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BBF630A2111AB5400D0626F /* Project object */;
+}
